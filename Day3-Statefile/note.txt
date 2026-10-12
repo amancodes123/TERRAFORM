@@ -1,0 +1,31 @@
+create the 2 files main and provider
+
+vs code : add this->
+aws configure
+add key and secret key
+
+login aws : launch instance
+
+cmd :
+terraform init
+terraform plan
+terraform apply -auto-approve
+
+after runing the above cmds the statefile is created
+
+Terraform Statefile :
+statefile is act as the remote between the aws and terraform code
+
+change the instance_type
+add the tag={Name="MyInstance"}
+change the az then they can destroy and create new instance
+
+then add the s3 code in main
+resource "aws_s3_bucket" "mybucket"{
+
+}
+
+if you remove the main code then the statefile is destroyed the resource
+
+if you edit the instance type in statefile the after the apply the statefile
+code is modifed like before
