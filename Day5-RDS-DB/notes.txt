@@ -1,0 +1,3 @@
+add the cache proces
+
+in the code we can crete rds then read replica the add the redis cache process

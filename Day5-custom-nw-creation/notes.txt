@@ -1,0 +1,3 @@
+crate the vpc in aws manualy
+create the 1 subnet (/24)
+create the route table
