@@ -1,0 +1,6 @@
+Provisioners :
+ 
+Local exec  -> Execute Locally (where terraform is executing)
+Remote exec ->  Execute Remotely (not local)
+File Provisioners  -> help to copy the file from local to remoote
+
