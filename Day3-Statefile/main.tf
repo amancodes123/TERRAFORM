@@ -1,4 +1,8 @@
-resource "aws_ec2_instance" "name" {
-  ami="ami_id"
-  instance_type = "t2.micro"
+resource "aws_instance" "name" {
+  ami = "ami-0d27e0fb3bac4d724"
+  instance_type = "t3.micro"
+  availability_zone = "us-east-1b"
+  tags={
+    Name="Aman"
+  }
 }
