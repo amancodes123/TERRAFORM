@@ -1,2 +1,0 @@
-create the main.tf
-create the variables.tf
